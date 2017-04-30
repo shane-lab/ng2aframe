@@ -1,0 +1,11 @@
+<a-scene #sceneEl>
+    <a-assets>
+        <img id="nebula"    src="./assets/img/nebula.jpg">
+        <img id="mozvr"     src="./assets/img/mozvr.png">
+    </a-assets>
+
+    <a-box position="0 2.5 -4" color="indigo"></a-box>
+
+    <!-- the ng wrapper component for aframe components -->
+    <basic-child [reftest]="true"></basic-child>
+</a-scene>
